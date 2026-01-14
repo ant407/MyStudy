@@ -1,5 +1,20 @@
 Git이란 무엇인가..
 - commit
+컴퓨터에 내용 저장
+git add 파일이름
+git commit -m "메시지 내용"
+
 - push
+github같은 드라이브에 저장
+
 - branch
-여기서 뭐한다고 뭐가 된다고?ㅋㅋㅋ
+가상 공간을 생성해서 테스트 가능
+git switch -c 공간이름
+새로운 가상 공간 생성
+git switch 공간이름
+가상공간 이동
+git merge 합치기
+원래 파일에 가상공간 내용 저장
+
+*과거로 되돌리기*
+git restore 파일이름
