@@ -9,6 +9,9 @@ git init
 git log
 로그 확인. 지금까지 커밋한 내용 모두 확인
 
+git status
+전에 저장한 내용과 달라진 것이 있는지 확인
+
 - commit
 컴퓨터에 내용 저장
 git add 파일이름
@@ -36,5 +39,8 @@ git merge 합치기
 git restore 파일이름
 
 git log --oneline #이 코드로 저장된 커밋들 확인
-git reset 티켓번호(7자리) #이 코드로 원하는 위치로 돌아감
+git reset --hard 티켓번호(7자리) #이 코드로 원하는 위치로 돌아감
+
+
+오늘은 여기까지ㅎㅎ
 
