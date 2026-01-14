@@ -1,20 +1,40 @@
 Git이란 무엇인가..
+git config --global user.name "이름"
+git config --global user.email "메일주소"
+위 내용을 입력해서 누가 무엇을 했는지 확인가능(git log)
+
+git init
+위 코드로 git 시작 선언
+
+git log
+로그 확인. 지금까지 커밋한 내용 모두 확인
+
 - commit
 컴퓨터에 내용 저장
 git add 파일이름
 git commit -m "메시지 내용"
 
 - push
-github같은 드라이브에 저장
+github같은 인터넷 드라이브에 저장
 
 - branch
 가상 공간을 생성해서 테스트 가능
+
 git switch -c 공간이름
 새로운 가상 공간 생성
+
 git switch 공간이름
 가상공간 이동
+
+git branch
+현재 위치 확인
+
 git merge 합치기
 원래 파일에 가상공간 내용 저장
 
 *과거로 되돌리기*
 git restore 파일이름
+
+git log --oneline #이 코드로 저장된 커밋들 확인
+git reset 티켓번호(7자리) #이 코드로 원하는 위치로 돌아감
+
